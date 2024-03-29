@@ -4,7 +4,7 @@
   size: 10pt)
 #set page(
   paper: "a4",
-  margin: (x: 1cm, y: 1cm),
+  margin: 1cm,
 )
 #set par(
   justify: true,

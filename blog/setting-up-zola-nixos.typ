@@ -4,12 +4,16 @@
   size: 10pt)
 #set page(
   paper: "a4",
-  margin: (x: 1cm, y: 1cm),
+  margin: 1cm,
 )
 #set par(
   justify: true,
   leading: 0.52em,
 )
+
+#align(center, text(20pt)[
+  *Setting up Zola on NixOS*
+])
 
 = Introduction
 #link("https://getzola.org")[Zola] is a static site generator
