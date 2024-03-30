@@ -1,20 +1,8 @@
-#show link: underline
-#set text(
-  font: "ETBembo",
-  size: 10pt)
-#set page(
-  paper: "a4",
-  margin: 1cm,
+#import "template.typ": conf
+#show: doc => conf(
+  title: [ Setting up Zola on NixOS ],
+  doc,
 )
-#set par(
-  justify: true,
-  leading: 0.52em,
-)
-
-#align(center, text(20pt)[
-  *Setting up Zola on NixOS*
-])
-#line(length: 70%)
 
 = Introduction
 #link("https://getzola.org")[Zola] is a static site generator

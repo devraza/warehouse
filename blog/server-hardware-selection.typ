@@ -1,20 +1,8 @@
-#show link: underline
-#set text(
-  font: "ETBembo",
-  size: 10pt)
-#set page(
-  paper: "a4",
-  margin: 1cm,
+#import "template.typ": conf
+#show: doc => conf(
+  title: [ Selecting hardware for a (home) server ],
+  doc,
 )
-#set par(
-  justify: true,
-  leading: 0.52em,
-)
-
-#align(center, text(20pt)[
-  *Selecting hardware for a (home) server*
-])
-#line(length: 70%)
 
 = Introduction
 I see a lot of people worryingly mistaken about what a server needs

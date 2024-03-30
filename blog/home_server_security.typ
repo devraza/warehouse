@@ -1,20 +1,8 @@
-#show link: underline
-#set text(
-  font: "ETBembo",
-  size: 10pt)
-#set page(
-  paper: "a4",
-  margin: 1cm,
+#import "template.typ": conf
+#show: doc => conf(
+  title: [ Home server security ],
+  doc,
 )
-#set par(
-  justify: true,
-  leading: 0.52em,
-)
-
-#align(left, text(20pt)[
-  *Home Server Security*
-])
-#line(length: 70%)
 
 = Introduction
 Home server security is pretty often overlooked from what I can tell. Any device accessible from the internet has _some_ degree of vulnerability in the current era of the internet. I aim for this document to detail methods to amend the contemporary cybersecurity challenges faced by most homelabbers.

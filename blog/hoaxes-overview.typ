@@ -1,20 +1,8 @@
-#show link: underline
-#set text(
-  font: "ETBembo",
-  size: 10pt)
-#set page(
-  paper: "a4",
-  margin: 1cm,
+#import "template.typ": conf
+#show: doc => conf(
+  title: [ An overview on hoaxes ],
+  doc,
 )
-#set par(
-  justify: true,
-  leading: 0.52em,
-)
-
-#align(left, text(20pt)[
-  *An overview on hoaxes*
-])
-#line(length: 70%)
 
 = Introduction
 In recent times, hoaxes have become increasingly prevalent as the

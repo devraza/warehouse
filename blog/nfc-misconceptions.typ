@@ -1,20 +1,8 @@
-#show link: underline
-#set text(
-  font: "ETBembo",
-  size: 10pt)
-#set page(
-  paper: "a4",
-  margin: 1cm,
+#import "template.typ": conf
+#show: doc => conf(
+  title: [ Misconceptions about NFC ],
+  doc,
 )
-#set par(
-  justify: true,
-  leading: 0.52em,
-)
-
-#align(left, text(20pt)[
-  *Misconceptions about NFC*
-])
-#line(length: 70%)
 
 #align(left, text(10pt)[*I made a mistake while writing this blog
 post - somehow forgetting that security isn’t unambiguous. You can
