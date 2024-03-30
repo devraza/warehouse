@@ -11,9 +11,10 @@
   leading: 0.52em,
 )
 
-#align(center, text(20pt)[
+#align(left, text(20pt)[
   *An overview on hoaxes*
 ])
+#line(length: 70%)
 
 = Introduction
 #link("https://docs.searxng.org/")[SearXNG];, put in its own words, is a

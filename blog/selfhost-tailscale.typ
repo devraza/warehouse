@@ -15,6 +15,7 @@
 #align(center, text(20pt)[
   *Take control of tailscale with headscale*
 ])
+#line(length: 70%)
 
 = Tailscale
 #link("https://tailscale.com/")[Tailscale] is a modern tunnel VPN

@@ -1,7 +1,20 @@
+#show link: underline
+#set text(
+  font: "ETBembo",
+  size: 10pt)
 #set page(
   paper: "a4",
   margin: 1cm,
 )
+#set par(
+  justify: true,
+  leading: 0.52em,
+)
+
+#align(left, text(20pt)[
+  *Misconceptions about NFC*
+])
+#line(length: 70%)
 
 #align(left, text(10pt)[*I made a mistake while writing this blog
 post - somehow forgetting that security isn’t unambiguous. You can
@@ -27,8 +40,7 @@ people have about NFC.
 = The Misconceptions
 == Inspiration
 While talking with a friend on a WhatsApp group chat a few days ago
-about a program I found on my jailbroken iOS device -
-#link("https://github.com/Aemulo")[Aemulo] - I was informed of 'subway
+about a program I found on my jailbroken iOS device - link("https://github.com/Aemulo")[Aemulo] - I was informed of 'subway
 skimmers'; devices that could #emph[supposedly] read data from
 contactless-enabled devices \(via NFC) and would be able to emulate
 them.
@@ -41,7 +53,6 @@ my first thought was:
 think that it was rightfully so.
 
 == What exactly is wrong with this?
-<what-exactly-is-wrong-with-this>
 Several things. I’m no expert in cybersecurity - everyone’s a student in
 some way, but I was sure that NFC was, as it’s name implies, for
 #strong[near-field communication];. I’m repeating myself here, but

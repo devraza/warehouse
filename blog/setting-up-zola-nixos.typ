@@ -14,6 +14,7 @@
 #align(center, text(20pt)[
   *Setting up Zola on NixOS*
 ])
+#line(length: 70%)
 
 = Introduction
 #link("https://getzola.org")[Zola] is a static site generator

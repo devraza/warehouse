@@ -14,6 +14,7 @@
 #align(center, text(20pt)[
   *Selecting hardware for a (home) server*
 ])
+#line(length: 70%)
 
 = Introduction
 I see a lot of people worryingly mistaken about what a server needs

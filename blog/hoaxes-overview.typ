@@ -11,9 +11,10 @@
   leading: 0.52em,
 )
 
-#align(center, text(20pt)[
+#align(left, text(20pt)[
   *An overview on hoaxes*
 ])
+#line(length: 70%)
 
 = Introduction
 In recent times, hoaxes have become increasingly prevalent as the
