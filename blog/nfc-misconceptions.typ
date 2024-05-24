@@ -80,4 +80,4 @@ threat!
 <conclusion>
 The information above, which I deem accurate, is there. What I suggest
 be taken away from this is pretty much the same as what is was for
-#link("https://devraza.duckdns.org/blog/hoaxes-overview/")[my blog post on hoaxes] - #strong[do some fact-checking!]
+#link("https://devraza.giize.com/blog/hoaxes-overview/")[my blog post on hoaxes] - #strong[do some fact-checking!]
